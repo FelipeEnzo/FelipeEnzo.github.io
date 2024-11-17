@@ -1,0 +1,146 @@
+@import url('https://fonts.cdnfonts.com/css/triforce');
+:root{
+    --light-yellow: #e0cb9f;
+    --darker-yellow: hsl(41, 51%, 50%);
+    --transparent-yellow: rgba(224, 203, 159, .6);
+    --black-2: rgba(0, 0, 0, .8);
+    --black-1: rgba(0, 0, 0, .4);
+}
+body{
+  font-family: 'Triforce', sans-serif;
+    background-image: url(https://images8.alphacoders.com/137/thumb-1920-1370188.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:auto;
+    cursor: url(https://i.imgur.com/Xr8QrHp.png), auto;
+}
+.page-wrapper{
+}
+.intro, .main.supporting{
+  width: 1300px;
+  margin: 0 auto;
+  padding: 16px 0;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(https://www.pixelstalk.net/wp-content/uploads/images2/Download-Hd-Zelda-Wallpapers-Images.jpg);
+  background-repeat: no-repeat;
+  height: 400px;
+  background-size: 100%;
+  background-position: center;
+  border-radius: 10px;
+  border: #c09d54 10px solid;
+  transition: 0.4s;
+  
+}
+
+header:hover{
+  background-size: 160%;
+}
+header h1, header h2{
+  color: #f4efe5;
+  font-size: 70px;
+  text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.7);
+}
+a{
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+    color: var(--light-yellow);
+    text-decoration: none;
+    font-style: italic;
+    transition: all .5s ease;
+}
+a:hover{
+    color:#c09d54;
+}
+p{
+  color: #f4efe5;
+  font-size: 24px;
+}
+h3{
+  color:#c09d54;
+  font-size: 40px;
+  text-shadow: 5px 5px 8px rgba(0, 0, 0, 1);
+  margin: 1rem 0;
+}
+
+
+
+
+.wrapper{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.design-selection, .design-archives, .zen-resources{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+}
+li{
+  font-size: 16px;
+}
+.design-selection ul{
+  list-style-image: url(https://i.postimg.cc/MpqPD89c/image.png);
+}
+.design-archives ul{
+  list-style-image: url(https://i.postimg.cc/FzKFc6ww/image.png);
+}
+.zen-resources ul{
+  list-style-image: url(https://i.postimg.cc/mZzVQSGF/image.png);
+}
+.sidebar h3{
+  color: #c09d54;
+  font-size: 32px;
+}
+.sidebar{
+  display: flex;
+  justify-content: center;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9f599b5a-8021-43ec-9fdf-393f59e1907d/dagog09-a14ac865-af80-40b1-b164-0194e90b1282.png/v1/fill/w_1280,h_721,q_80,strp/zelda_30th_anniversary_wallpaper_by_wolforan_dagog09-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIxIiwicGF0aCI6IlwvZlwvOWY1OTliNWEtODAyMS00M2VjLTlmZGYtMzkzZjU5ZTE5MDdkXC9kYWdvZzA5LWExNGFjODY1LWFmODAtNDBiMS1iMTY0LTAxOTRlOTBiMTI4Mi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.XJiR1sfIcMwa2iDiOT8WAAjJTs9wbTQfm0flGKijsTQ);
+  background-position: bottom;
+  height: 300px;
+  background-size: cover;
+  width: 100%;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.participation, .benefits, .requirements{
+    flex: 1 1 0;
+    background-color: var(--black-1);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: all .5s ease;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.participation:hover, .benefits:hover, .requirements:hover{
+    background-color: var(--black-2);
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: end;
+}
+.sidebar > .wrapper{
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    border: 10px solid  var(--black-1);
+    padding: 10px;
+    transition: all 1s ease;
+}

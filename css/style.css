@@ -144,3 +144,99 @@ footer{
     padding: 10px;
     transition: all 1s ease;
 }
+
+/* 2x1 */
+@media (max-width: 1536px) {
+    header h1, header h2 {
+        font-size: 60px;
+    }
+    .main {
+        flex-direction: column;
+    }
+}
+
+/* x1 */
+@media (max-width: 1280px) {
+    header h1, header h2 {
+        font-size: 50px;
+    }
+    .intro, .main.supporting {
+        width: 100%;
+    }
+    .sidebar{
+        height: auto;
+    }
+}
+
+/* 1g */
+@media (max-width: 1024px) {
+    header h1, header h2 {
+        font-size: 40px;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .design-selection, .design-archives, .zen-resources {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .sidebar {
+        height: auto;
+    }
+}
+
+/* md */
+@media (max-width: 768px) {
+    header h1, header h2 {
+        font-size: 30px;
+    }
+    .intro, .main.supporting {
+        width: 100%;
+        padding: 10px;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .main {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .sidebar {
+        height: auto;
+    }
+}
+
+/* sm */
+@media (max-width: 640px) {
+    header h1, header h2 {
+        font-size: 25px;
+    }
+    .intro, .main.supporting {
+        padding: 8px;
+    }
+    .wrapper {
+        padding: 5px;
+    }
+    .sidebar {
+        height: auto;
+    }
+}
+
+/* xs */
+@media (max-width: 475px) {
+    header h1, header h2 {
+        font-size: 20px;
+    }
+    .intro, .main.supporting {
+        padding: 5px;
+    }
+    .main {
+        flex-direction: column;
+    }
+    footer {
+        padding: 10px;
+    }
+    .sidebar{
+        height: auto;
+    }
+}
